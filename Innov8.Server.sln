@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innov8.Server.ApiService", "Innov8.Server.ApiService\Innov8.Server.ApiService.csproj", "{F4A705AF-1F61-4FAF-B253-FD43D3B80263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innov8.Server.AppHost", "Innov8.Server.AppHost\Innov8.Server.AppHost.csproj", "{98FC4A4B-177D-4370-8B2C-111CF2FFFCC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innov8.Server.ServiceDefaults", "Innov8.Server.ServiceDefaults\Innov8.Server.ServiceDefaults.csproj", "{42D94CCF-90A3-432A-AE6A-54D34E9FC26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innov8.Server.Test", "Innov8.Server.Test\Innov8.Server.Test.csproj", "{70FC87FD-5013-44ED-855F-85FA0A6F7437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{66C68EC6-7AD1-4701-9BD0-7BD7E10BD2E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innov8.Server.SharedData", "Innov8.Server.SharedData\Innov8.Server.SharedData.csproj", "{C0DDAFB5-D390-499D-BEC0-D457356CFCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innov8.Server.DbManager", "Innov8.Server.DbManager\Innov8.Server.DbManager.csproj", "{AF3679CC-B6B7-471A-90B0-AD74DF7C7E32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A705AF-1F61-4FAF-B253-FD43D3B80263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A705AF-1F61-4FAF-B253-FD43D3B80263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A705AF-1F61-4FAF-B253-FD43D3B80263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A705AF-1F61-4FAF-B253-FD43D3B80263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FC4A4B-177D-4370-8B2C-111CF2FFFCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FC4A4B-177D-4370-8B2C-111CF2FFFCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FC4A4B-177D-4370-8B2C-111CF2FFFCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FC4A4B-177D-4370-8B2C-111CF2FFFCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D94CCF-90A3-432A-AE6A-54D34E9FC26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D94CCF-90A3-432A-AE6A-54D34E9FC26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D94CCF-90A3-432A-AE6A-54D34E9FC26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D94CCF-90A3-432A-AE6A-54D34E9FC26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FC87FD-5013-44ED-855F-85FA0A6F7437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FC87FD-5013-44ED-855F-85FA0A6F7437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FC87FD-5013-44ED-855F-85FA0A6F7437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FC87FD-5013-44ED-855F-85FA0A6F7437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DDAFB5-D390-499D-BEC0-D457356CFCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DDAFB5-D390-499D-BEC0-D457356CFCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DDAFB5-D390-499D-BEC0-D457356CFCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DDAFB5-D390-499D-BEC0-D457356CFCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3679CC-B6B7-471A-90B0-AD74DF7C7E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3679CC-B6B7-471A-90B0-AD74DF7C7E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3679CC-B6B7-471A-90B0-AD74DF7C7E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3679CC-B6B7-471A-90B0-AD74DF7C7E32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
